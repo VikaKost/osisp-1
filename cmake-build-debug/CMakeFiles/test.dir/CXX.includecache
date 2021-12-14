@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Keyris/Desktop/WinApi-master/Sprite.h
+vector
+-
+windows.h
+-
+
+C:/Users/Keyris/Desktop/WinApi-master/main.cpp
+iostream
+-
+windows.h
+-
+tchar.h
+-
+vector
+-
+Sprite.h
+C:/Users/Keyris/Desktop/WinApi-master/Sprite.h
+gdiplus.h
+-
+
